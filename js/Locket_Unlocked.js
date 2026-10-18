@@ -389,18 +389,6 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Suggest Caption",
-                items: [
-                    { overlay_id: "caption:gradient_purple_pink", source: "local", caption: { background: { colors: ["#8A2BE2", "#FF1493"] }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_red_orange", source: "local", caption: { background: { colors: ["#FF0000", "#FF8C00"] }, max_lines: 1, text: "Caption", text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_orange_yellow", source: "local", caption: { background: { colors: ["#FF8C00", "#FFD700"] }, max_lines: 1, text: "", text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_green_teal", source: "local", caption: { background: { colors: ["#00FF7F", "#00CED1"] }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_light_blue", source: "local", caption: { background: { colors: ["#87CEEB", "#B0E0E6"] }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_dark_blue", source: "local", caption: { background: { colors: ["#1E90FF", "#0000FF"] }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:gradient_light_pink", source: "local", caption: { background: { colors: ["#FFB6C1", "#FFF0F5"] }, max_lines: 1, text_color: "#000000", type: "standard" } }
-                ]
-            },
-            {
                 section: "🎨 Decorative by Locket",
                 items: [
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
@@ -414,21 +402,22 @@ if (ua.includes("Locket")) {
             {
                 section: "🎨 Decorative by Duy Vinh",
                 items: [
-                    { overlay_id: "caption:duyvinh09", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "person.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "duyvinh09", text_color: "#183153", type: "static_content" } },
+                    { overlay_id: "caption:duyvinh09", source: "remote", alt_text: "duyvinh09", caption: { background: { image: { type: "image", data: "https://i.ibb.co/svX6CPFw/bia.png", source: "url" }, colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, icon: { data: "person.fill", type: "sf_symbol", color: "#183153" }, max_lines: 1, text: "duyvinh09", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
                     { overlay_id: "caption:tuat", source: "remote", caption: { background: { colors: ["#2C1A0E", "#5D4037", "#D7A86E"] }, icon: { data: "🐕", type: "emoji" }, max_lines: 1, text: "Tuất", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:snake_vibes", source: "remote", caption: { background: { colors: ["#2E7D32", "#66BB6A"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Snake Vibes", localized_text: { en: "Snake Vibes", vn: "Chất rắn" }, text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } }
+                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:love_vietnam", source: "remote", alt_text: "Tôi yêu Việt Nam", caption: { background: { image: { type: "image", data: "https://i.ibb.co/hxFLgLxt/vietnam.jpg", source: "url" }, colors: ["#DA251D", "#FFFF00"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text: "Tôi yêu Việt Nam", text_color: "#FFD700", type: "static_content" } },
                 ]
             },
             {
                 section: "🎨 Caption Icon",
                 items: [
-                    { overlay_id: "caption:icon_halloween", source: "remote", caption: { background: { colors: ["#EFEFEF", "#FFFFFF"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/halloween_indicator%403x.png", source: "url" }, max_lines: 1, text: "Caption", text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:icon_christmas", source: "remote", caption: { background: { colors: ["#EFEFEF", "#FFFFFF"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/christmas_indicator%403x.png", source: "url" }, max_lines: 1, text: "", text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:icon_st_patricks", source: "remote", caption: { background: { colors: ["#EFEFEF", "#FFFFFF"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/st_patricks_indicator%403x.png", source: "url" }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:icon_fall", source: "remote", caption: { background: { colors: ["#EFEFEF", "#FFFFFF"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/thanksgiving_indicator%403x.png", source: "url" }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } },
-                    { overlay_id: "caption:icon_valentines", source: "remote", caption: { background: { colors: ["#EFEFEF", "#FFFFFF"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text_color: "#FFFFFF", type: "standard" } }
+                    { overlay_id: "caption:icon_halloween", source: "remote", caption: { background: { colors: ["#FF7B00", "#331A00"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/halloween_indicator%403x.png", source: "url" }, max_lines: 1, text: "Happy Halloween", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:icon_christmas", source: "remote", caption: { background: { colors: ["#D32F2F", "#1B5E20"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/christmas_indicator%403x.png", source: "url" }, max_lines: 1, text: "Merry Christmas", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:icon_st_patricks", source: "remote", caption: { background: { colors: ["#00C853", "#004D40"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/st_patricks_indicator%403x.png", source: "url" }, max_lines: 1, text: "Happy St. Patrick's Day", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:icon_fall", source: "remote", caption: { background: { colors: ["#E65100", "#3E2723"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/thanksgiving_indicator%403x.png", source: "url" }, max_lines: 1, text: "Happy Thanksgiving", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:icon_valentines", source: "remote", caption: { background: { colors: ["#FF4081", "#880E4F"], material_blur: "ultra_thin" }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/valentines_indicator%403x.png", source: "url" }, max_lines: 1, text: "Happy Valentine's", text_color: "#FFFFFF", type: "static_content" } }
                 ]
             },
             {
